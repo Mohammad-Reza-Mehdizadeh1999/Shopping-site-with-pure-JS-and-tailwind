@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: IRANSans;
+  src: url(./fonts/IRANSans/IRANSans.ttf);
+}
+
+body {
+  font-family: "IRANSans";
+}
+
+
+.swiper {
+  width: 90%;
+  height: 80%;
+}
+
+

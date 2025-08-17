@@ -1,0 +1,22 @@
+{
+  "name": "shop",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5855",
+    "server" : "json-server -w db.json",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "json-server": "^1.0.0-beta.3",
+    "swiper": "^11.2.10",
+    "tailwindcss": "^4.1.11",
+    "typewriter-effect": "^2.22.0"
+  }
+}

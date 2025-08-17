@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="./public/favIcon.png" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>محصولات دسته | Morez Shop</title>
+  <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.18.0/dist/core.js"></script>
+</head>
+<body class="container mx-auto">
+
+  <!-- Navbar -->
+  <nav class="sticky flex items-center justify-between rounded-xl bg-white shadow-md p-4">
+    <div class="flex items-center gap-10">
+      <ul class="flex space-x-6 text-gray-700 font-medium">
+        <li><a href="index.html" class="hover:text-blue-500 transition-colors">صفحه اصلی</a></li>
+        <li><a href="our-products.html" class="hover:text-blue-500 transition-colors">محصولات ما</a></li>
+        <li><a href="aboutUs.html" class="hover:text-blue-500 transition-colors">درباره ما</a></li>
+        <li><a href="branches.html" class="hover:text-blue-500 transition-colors">شعب</a></li>
+      </ul>
+
+      <div class="relative">
+        <img src="./public/basket.png" alt="basket" class="w-8 cursor-pointer" title="سبد خرید شما">
+        <span class="absolute -top-2 -right-4 bg-sky-400 py-0.5 px-1.5 rounded-full">0</span>
+      </div>
+    </div>
+
+    <div class="flex items-center gap-5">
+      <span id="typewriter-text" class="text-xl font-bold text-gray-700"></span>
+      <img src="/logo.png" alt="logo" class="h-18" />
+    </div>
+  </nav>
+
+  <!-- Header / Breadcrumb -->
+  <header class="mt-6">
+    <nav class="text-sm text-gray-500">
+      <a href="index.html" class="hover:text-sky-500">خانه</a>
+      <span class="mx-2">/</span>
+      <a href="our-products.html" class="hover:text-sky-500">محصولات</a>
+      <span class="mx-2">/</span>
+      <span class="crumb-category"></span>
+    </nav>
+    <h1 id="page-title" class="text-2xl md:text-3xl font-extrabold mt-2">محصولات دسته <span class="crumb-category"></span> ها</h1>
+  </header>
+
+  <!-- فیلتر ساده جنسیت -->
+  <section class="mt-4 flex gap-5 items-center justify-center">
+    <button data-gender="all" class="gender-btn px-5 py-3 rounded-xl border cursor-pointer hover:shadow-xl hover:scale-105 duration-200">همه</button>
+    <button data-gender="female" class="gender-btn px-5 py-3 rounded-xl border cursor-pointer hover:shadow-xl hover:scale-105 duration-200">زنانه</button>
+    <button data-gender="male" class="gender-btn px-5 py-3 rounded-xl border cursor-pointer hover:shadow-xl hover:scale-105 duration-200">مردانه</button>
+  </section>
+
+  <!-- Main Grid -->
+  <section class="py-5 container mx-auto mt-3">
+
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  category"
+      id="products-grid">
+      <!--  Rendering products in singleCategory.js   -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-sky-300 py-8 mt-10">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div>
+          <h3 class="font-semibold text-lg mb-4">تماس با ما</h3>
+          <p class="text-sm">آدرس: تهران، ایران</p>
+          <p class="text-sm">تلفن: 021-xxxxxxx</p>
+          <p class="text-sm">ایمیل: contact@yourdomain.com</p>
+        </div>
+
+        <div>
+          <h3 class="font-semibold text-lg mb-4">لینک‌های مفید</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-sm hover:text-sky-400">درباره ما</a></li>
+            <li><a href="#" class="text-sm hover:text-sky-400">خدمات</a></li>
+            <li><a href="#" class="text-sm hover:text-sky-400">پشتیبانی</a></li>
+            <li><a href="#" class="text-sm hover:text-sky-400">محصولات</a></li>
+            <li><a href="#" class="text-sm hover:text-sky-400">وبلاگ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-semibold text-lg mb-4">دنبال کنید</h3>
+          <div class="flex flex-col gap-1.5">
+            <a href="#" class=" flex gap-1.5 items-center  hover:text-sky-400">
+              <img src="./public/logos/instagram-48.png" class="w-8" alt="instagram">
+              <p>اینستاگرام</p>
+            </a>
+            <a href="#" class="flex gap-1.5 items-center  hover:text-sky-400">
+              <img src="./public/logos/telegram-app-48.png" class="w-8" alt="telegram">
+              <p>تلگرام</p>
+            </a>
+            <a href="#" class="flex gap-1.5 items-center  hover:text-sky-400">
+              <img src="./public/logos/whatsapp-logo-94.png" class="w-8" alt="whatsapp">
+              <p>واتساپ</p>
+            </a>
+            <a href="#" class="flex gap-1.5 items-center  hover:text-sky-400">
+              <img src="./public/logos/facebook-logo-48.png" class="w-8" alt="facebook">
+              <p>فیسبوک</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="sm:col-span-2 lg:col-span-1">
+          <p class="text-center text-sm mt-4 sm:mt-0">© 2025 همه حقوق محفوظ است | Morez Shop</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+<script src="./js/typewritter.js"></script>
+<script src="./js/singleCategory.js"></script>
+
+
+
+</body>
+</html>

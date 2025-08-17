@@ -1,91 +1,89 @@
 {
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "categotyTitle": "کت و شومیز",
       "url": "coat-shomiz",
       "img": "./public/categories/coat-shomiz.webp"
     },
     {
-      "id": 2,
+      "id": "2",
       "categotyTitle": "شلوار",
       "url": "shalvar",
       "img": "./public/categories/shalvar.jpeg"
     },
     {
-      "id": 3,
+      "id": "3",
       "categotyTitle": "کیف",
       "url": "bag",
       "img": "./public/categories/bag.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "categotyTitle": "کفش",
       "url": "shoe",
       "img": "./public/categories/shoe.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "categotyTitle": "پیراهن",
-      "url" : "pirahan",
+      "url": "pirahan",
       "img": "./public/categories/pirahan.webp"
     },
     {
-      "id": 6,
+      "id": "6",
       "categotyTitle": "تی شرت",
-      "url" : "tshirt",
+      "url": "tshirt",
       "img": "./public/categories/tshirt.jpg"
     }
   ],
-
   "popular": [
     {
-      "id": 1,
+      "id": "1",
       "productTitle": "کتونی جردن دخترانه",
       "img": "./public/popular/shoe.jpg",
       "price": 750
     },
     {
-      "id": 2,
+      "id": "2",
       "productTitle": "کیف چارم بگ سفید",
       "img": "./public/popular/bag.jpg",
       "price": 400
     },
     {
-      "id": 3,
+      "id": "3",
       "productTitle": "شومیز نقره ای",
       "img": "./public/popular/shomiz.jpg",
       "price": 650
     },
     {
-      "id": 4,
+      "id": "4",
       "productTitle": "دامن سرمه ای",
       "img": "./public/popular/daman.jpeg",
       "price": 980
     },
     {
-      "id": 5,
+      "id": "5",
       "productTitle": "کت مردانه دابل برست",
       "img": "./public/popular/coat.webp",
       "price": 685
     },
     {
-      "id": 6,
+      "id": "6",
       "productTitle": "تی شرت کلاه دار",
       "img": "./public/popular/hattshirt.webp",
       "price": 230
     },
     {
-      "id": 7,
+      "id": "7",
       "productTitle": "پیراهن آستین بلند مردانه",
       "img": "./public/popular/pirahan.webp",
       "price": 550
     }
   ],
-
   "branches": [
     {
-      "id": 1,
+      "id": "1",
       "title": "شعبه تهران",
       "address": "تهران، خیابان ولیعصر، خیابان شهید بهشتی، پلاک ۲۰",
       "workingHour": "شنبه تا چهارشنبه 9 صبح تا 9 شب، پنجشنبه 9 صبح تا 5 عصر",
@@ -93,7 +91,7 @@
       "img": "./public/branch/branch1.webp"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "شعبه شیراز",
       "address": "شیراز، بلوار کریم خان، پلاک ۴۵۶",
       "workingHour": "شنبه تا چهارشنبه 10 صبح تا 8 شب، پنجشنبه 10 صبح تا 4 عصر",
@@ -101,334 +99,368 @@
       "img": "./public/branch/branch2.webp"
     }
   ],
-
   "coat-shomiz": [
     {
-      "id": 1,
+      "id": "cs1",
       "title": "شومیز نخی صورتی",
       "description": "شومیز نخی صورتی با طراحی زیبا و کیفیت عالی",
       "price": 650,
       "img": "./public/coat-shomiz/shomizsorati.jpg",
-      "gender": "female"
+      "gender": "female",
+      "category": "coat-shomiz"
     },
     {
-      "id": 2,
+      "id": "cs2",
       "title": "شومیز نخی زرد",
       "description": "شومیز نخی زرد با طراحی زیبا و کیفیت عالی",
       "price": 530,
       "img": "./public/coat-shomiz/shomizzard.jpg",
-      "gender": "female"
+      "gender": "female",
+      "category": "coat-shomiz"
     },
     {
-      "id": 3,
+      "id": "cs3",
       "title": "شومیز نخی سبز",
       "description": "شومیز نخی سبز با طراحی زیبا و کیفیت عالی",
       "price": 680,
       "img": "./public/coat-shomiz/shomizsabz.jpg",
-      "gender": "female"
+      "gender": "female",
+      "category": "coat-shomiz"
     },
     {
-      "id": 4,
+      "id": "cs4",
       "title": "شومیز نخی مشکی",
       "description": "شومیز نخی مشکی با طراحی زیبا و کیفیت عالی",
       "price": 350,
       "img": "./public/coat-shomiz/shomizmeshki.jpg",
-      "gender": "female"
+      "gender": "female",
+      "category": "coat-shomiz"
     },
     {
-      "id": 5,
+      "id": "cs5",
       "title": "اورکوت سفید",
       "description": "اورکوت مخمل سفید مناسب زمستان با طراحی زیبا و کیفیت عالی",
       "price": 980,
       "img": "./public/coat-shomiz/overcoat.jpg",
-      "gender": "female"
+      "gender": "female",
+      "category": "coat-shomiz"
     },
     {
-      "id": 6,
+      "id": "cs6",
       "title": "کت سفید کوتاه",
       "description": "کت سفید مناسب پاییز با طراحی زیبا و کیفیت عالی",
       "price": 760,
       "img": "./public/coat-shomiz/coatsefid.jpg",
-      "gender": "female"
+      "gender": "female",
+      "category": "coat-shomiz"
     },
     {
-      "id": 7,
+      "id": "cs7",
       "title": "کت بوفالو مشکی",
       "description": "کت بوفلو مشکی مناسب پاییز با طراحی زیبا و کیفیت عالی",
       "price": 860,
       "img": "./public/coat-shomiz/coatbufalu.jpg",
-      "gender": "female"
+      "gender": "female",
+      "category": "coat-shomiz"
     },
     {
-      "id": 8,
+      "id": "cs8",
       "title": "شومیز نقره ای",
       "description": "شومیز نخی نقره ای مناسب پاییز با طراحی زیبا و کیفیت عالی",
       "img": "./public/coat-shomiz/shomiz.jpg",
       "price": 650,
-      "gender": "female"
+      "gender": "female",
+      "category": "coat-shomiz"
     },
     {
-      "id": 9,
+      "id": "cs9",
       "title": "کت مردانه دابل برست",
       "description": "کت مردانه دابل برست مناسب پاییز با دوخت و کیفیت عالی ",
       "img": "./public/coat-shomiz/coat.webp",
       "price": 685,
-      "gender": "male"
+      "gender": "male",
+      "category": "coat-shomiz"
     }
   ],
-
   "shalvar": [
     {
-      "id": 1,
+      "id": "sh1",
       "title": "شلوار سبز",
       "description": "شلوار نخی سبز با طراحی زیبا و کیفیت عالی",
       "price": 670,
       "img": "./public/shalvar/shalvarsabz.jpg",
-      "gender": "female"
+      "gender": "female",
+      "category": "shalvar"
     },
     {
-      "id": 2,
+      "id": "sh2",
       "title": "شلوار نگین دار آبی",
       "description": "شلوار نگین دار آبی با طراحی زیبا و کیفیت عالی",
       "price": 960,
       "img": "./public/shalvar/shalvarnegin.jpg",
-      "gender": "female"
+      "gender": "female",
+      "category": "shalvar"
     },
     {
-      "id": 3,
+      "id": "sh3",
       "title": "شلوار نخی کرم",
       "description": "شلوار نخی کرم با طراحی زیبا و کیفیت عالی",
       "price": 470,
       "img": "./public/shalvar/shalvarkerem.jpg",
-      "gender": "female"
+      "gender": "female",
+      "category": "shalvar"
     },
     {
-      "id": 4,
+      "id": "sh4",
       "title": "شلوار بگ مشکی",
       "description": "شلوار بگ مشکی با طراحی زیبا و کیفیت عالی",
       "price": 640,
       "img": "./public/shalvar/shalvarbag.jpg",
-      "gender": "female"
+      "gender": "female",
+      "category": "shalvar"
     },
     {
-      "id": 5,
+      "id": "sh5",
       "title": "دامن سرمه ای",
       "description": "دامن سرمه ای با طراحی زیبا و کیفیت عالی",
       "img": "./public/shalvar/daman.jpeg",
       "price": 980,
-      "gender": "female"
+      "gender": "female",
+      "category": "shalvar"
     },
     {
-      "id": 6,
+      "id": "sh6",
       "title": "شلوار الد ",
       "description": "شلوار کرم الد مردانه با طراحی زیبا و کیفیت عالی",
       "img": "./public/shalvar/shalvareled.webp",
       "price": 510,
-      "gender": "male"
+      "gender": "male",
+      "category": "shalvar"
     },
     {
-      "id": 7,
+      "id": "sh7",
       "title": "شلوار اسلیم فیت",
       "description": " شلوار پارچه‌ای اسلیم فیت مردانه ای با طراحی زیبا و کیفیت عالی",
       "img": "./public/shalvar/shalvareslim.webp",
       "price": 870,
-      "gender": "male"
+      "gender": "male",
+      "category": "shalvar"
     }
   ],
-
   "bag": [
     {
-      "id": 1,
+      "id": "ba1",
       "title": "کیف چارم بگ سفید",
       "description": "کیف بگ زنانه چرم سفید با طراحی زیبا",
       "img": "./public/bag/bag.jpg",
       "price": 400,
-      "gender": "female"
+      "gender": "female",
+      "category": "bag"
     },
     {
-      "id": 2,
+      "id": "ba2",
       "title": "کیف مردانه چرم",
       "description": "کیف مشکی اداری مردانه بیورا چرم طبیعی",
       "img": "./public/bag/biora.webp",
       "price": 730,
-      "gender": "male"
+      "gender": "male",
+      "category": "bag"
     },
     {
-      "id": 3,
+      "id": "ba3",
       "title": "کیف چرم آرا",
       "description": "کیف عسلی اداری مردانه چرم آرا",
       "img": "./public/bag/charmara.webp",
       "price": 970,
-      "gender": "male"
+      "gender": "male",
+      "category": "bag"
     },
     {
-      "id": 4,
+      "id": "ba4",
       "title": "کیف دستی زنانه دلسی",
       "description": "کیف بژ زنانه چرم با طراحی زیبا",
       "img": "./public/bag/delsi.webp",
       "price": 520,
-      "gender": "female"
+      "gender": "female",
+      "category": "bag"
     },
     {
-      "id": 5,
+      "id": "ba5",
       "title": "کیف زنانه چرم مشهد",
       "description": "کیف خاکستری رودوشی زنانه چرم مشهد",
       "img": "./public/bag/charmmashhad.webp",
       "price": 960,
-      "gender": "female"
+      "gender": "female",
+      "category": "bag"
     }
   ],
-
   "shoe": [
     {
-      "id": 1,
+      "id": "sho1",
       "title": "کتونی جردن دخترانه",
       "description": "کتونی سفید صورتی جردن دخترانه",
       "img": "./public/shoe/shoe.jpg",
       "price": 750,
-      "gender": "female"
+      "gender": "female",
+      "category": "shoe"
     },
     {
-      "id": 2,
+      "id": "sho2",
       "title": " کفش روزمره مردانه برتونیکس",
       "description": "کتونی سفید مشکی برتونیکس مردانه",
       "img": "./public/shoe/bertonix.webp",
       "price": 630,
-      "gender": "male"
+      "gender": "male",
+      "category": "shoe"
     },
     {
-      "id": 3,
+      "id": "sho3",
       "title": "کتونی پیاده‌روی مردانه",
       "description": "کفش آبی سفید پیاده‌روی مردانه",
       "img": "./public/shoe/piadehravi.webp",
       "price": 690,
-      "gender": "male"
+      "gender": "male",
+      "category": "shoe"
     },
     {
-      "id": 4,
+      "id": "sho4",
       "title": "نیم بوت زنانه",
       "description": "نیم بوت زنانه عسلی سرمه ای دخترانه",
       "img": "./public/shoe/nimboot.webp",
       "price": 420,
-      "gender": "female"
+      "gender": "female",
+      "category": "shoe"
     },
     {
-      "id": 5,
+      "id": "sho5",
       "title": "کتونی عسلی چرم دخترانه",
       "description": "کفش روزمره زنانه چرم تهران",
       "img": "./public/shoe/roozmare.webp",
       "price": 530,
-      "gender": "female"
+      "gender": "female",
+      "category": "shoe"
     },
     {
-      "id": 6,
+      "id": "sho6",
       "title": "صندل زنانه چرم",
       "description": "صندل زنانه چرم تهران",
       "img": "./public/shoe/sandal.webp",
       "price": 750,
-      "gender": "female"
+      "gender": "female",
+      "category": "shoe"
     }
   ],
-
   "pirahan": [
     {
-      "id": 1,
+      "id": "pir1",
       "title": "پیراهن آستین بلند مردانه",
       "description": "پیراهن یاسی آستین بلند سرملین نخی",
       "img": "./public/pirahan/pirahan.webp",
       "price": 550,
-      "gender": "male"
+      "gender": "male",
+      "category": "pirahan"
     },
     {
-      "id": 2,
+      "id": "pir2",
       "title": "پیراهن کرم مخمل مردانه",
       "description": " پیراهن آستین بلند مردانه پایتی جامه مدل الیزه",
       "img": "./public/pirahan/pirahankerem.webp",
       "price": 850,
-      "gender": "male"
+      "gender": "male",
+      "category": "pirahan"
     },
     {
-      "id": 3,
+      "id": "pir3",
       "title": " پیراهن سفید مردانه پیرکاردین",
       "description": "پیراهن پیراهن آستین بلند مردانه پیرکاردین",
       "img": "./public/pirahan/pirahansefid.webp",
       "price": 970,
-      "gender": "male"
+      "gender": "male",
+      "category": "pirahan"
     },
     {
-      "id": 4,
+      "id": "pir4",
       "title": "مجلسی زنانه کرم",
       "description": "لباس مجلسی کرم یقه باز زنانه دل آویز ",
       "img": "./public/pirahan/majlesikerem.webp",
       "price": 790,
-      "gender": "female"
+      "gender": "female",
+      "category": "pirahan"
     },
     {
-      "id": 5,
+      "id": "pir5",
       "title": "مجلسی پرنسسی مشکی",
       "description": "پیراهن یقه باز زنانه مدل ماکسی پرنسسی رنگ مشکی",
       "img": "./public/pirahan/majlesimeshki.webp",
       "price": 990,
-      "gender": "female"
+      "gender": "female",
+      "category": "pirahan"
     },
     {
-      "id": 6,
+      "id": "pir6",
       "title": "مجلسی سفید زنانه",
       "description": " لباس مجلسی سفید زنانه اسمارا",
       "img": "./public/pirahan/majlesisefid.webp",
       "price": 860,
-      "gender": "female"
+      "gender": "female",
+      "category": "pirahan"
     },
     {
-      "id": 7,
+      "id": "pir7",
       "title": " پیراهن  مردانه سرمه ای",
       "description": " پیراهن آستین بلند مردانه پایتی جامه مدل مارون",
       "img": "./public/pirahan/pirahansorme.webp",
       "price": 810,
-      "gender": "male"
+      "gender": "male",
+      "category": "pirahan"
     }
   ],
-
   "tshirt": [
     {
-      "id": 1,
+      "id": "ts1",
       "title": "تی شرت کلاه دار",
       "description": "تی شرت کلاه دار مردانه مشکی",
       "img": "./public/tshirt/hattshirt.webp",
       "price": 230,
-      "gender": "male"
+      "gender": "male",
+      "category": "tshirt"
     },
     {
-      "id": 2,
+      "id": "ts2",
       "title": "تی شرت آنتی باکتریال",
       "description": " تی شرت آستین کوتاه زنانه تاپیک مدل نانو",
       "img": "./public/tshirt/tsirtnano.webp",
       "price": 690,
-      "gender": "female"
+      "gender": "female",
+      "category": "tshirt"
     },
     {
-      "id": 3,
+      "id": "ts3",
       "title": "تی شرت نخودی مردانه",
       "description": "تی شرت نخودی آستین کوتاه مردانه باینت",
       "img": "./public/tshirt/tshirtbynet.webp",
       "price": 630,
-      "gender": "male"
+      "gender": "male",
+      "category": "tshirt"
     },
     {
-      "id": 4,
+      "id": "ts4",
       "title": "تی شرت گل زنانه",
       "description": " تیشرت آستین کوتاه زنانه طرح گل",
       "img": "./public/tshirt/tshirtgol.webp",
       "price": 510,
-      "gender": "female"
+      "gender": "female",
+      "category": "tshirt"
     },
     {
-      "id": 5,
+      "id": "ts5",
       "title": "تی شرت سفید مردانه",
       "description": "تی شرت آستین کوتاه مردانه رانژ",
       "img": "./public/tshirt/tshirtranzh.webp",
       "price": 480,
-      "gender": "male"
+      "gender": "male",
+      "category": "tshirt"
     }
-  ]
+  ],
+  "cart": []
 }
